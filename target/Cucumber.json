@@ -1,0 +1,531 @@
+[
+  {
+    "id": "add-item-to-cart",
+    "description": "",
+    "name": "Add item to cart",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "add-item-to-cart;add-item-to-cart;;2",
+        "description": "",
+        "name": "Add item to cart",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "steps": [
+          {
+            "result": {
+              "duration": 4714287868,
+              "status": "passed"
+            },
+            "name": "User performs search of \"hermes jardin\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "hermes jardin",
+                  "offset": 25
+                }
+              ],
+              "location": "Test1.UserSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 785660332,
+              "status": "passed"
+            },
+            "name": "User opens item with title \"Hermes Un Jardin Sur Le Toit Eau De Toilette Spray 100ml/3.3oz\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hermes Un Jardin Sur Le Toit Eau De Toilette Spray 100ml/3.3oz",
+                  "offset": 28
+                }
+              ],
+              "location": "Test1.openDetailsPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 2439033433,
+              "status": "passed"
+            },
+            "name": "User adds item to cart",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "Test1.userAddsItemToCart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2410700305,
+              "status": "passed"
+            },
+            "name": "Item with title \"Hermes Un Jardin Sur Le Toit Eau De Toilette Spray 100ml/3.3oz\" added to the cart",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hermes Un Jardin Sur Le Toit Eau De Toilette Spray 100ml/3.3oz",
+                  "offset": 17
+                }
+              ],
+              "location": "Test1.itemIsAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              1
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "add-item-to-cart;add-item-to-cart;;3",
+        "description": "",
+        "name": "Add item to cart",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "steps": [
+          {
+            "result": {
+              "duration": 2521573712,
+              "status": "passed"
+            },
+            "name": "User performs search of \"kenzo perfume\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "kenzo perfume",
+                  "offset": 25
+                }
+              ],
+              "location": "Test1.UserSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 10536354011,
+              "status": "passed"
+            },
+            "name": "User opens item with title \"Kenzo Flower In The Air by Kenzo for Women Eau de Parfum Perfume 50ml 1.7 Oz\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kenzo Flower In The Air by Kenzo for Women Eau de Parfum Perfume 50ml 1.7 Oz",
+                  "offset": 28
+                }
+              ],
+              "location": "Test1.openDetailsPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 96443997,
+              "status": "passed"
+            },
+            "name": "User adds item to cart",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "Test1.userAddsItemToCart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1993350437,
+              "status": "passed"
+            },
+            "name": "Item with title \"Kenzo Flower In The Air by Kenzo for Women Eau de Parfum Perfume 50ml 1.7 Oz\" added to the cart",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kenzo Flower In The Air by Kenzo for Women Eau de Parfum Perfume 50ml 1.7 Oz",
+                  "offset": 17
+                }
+              ],
+              "location": "Test1.itemIsAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              1
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "bdd/test1.feature"
+  },
+  {
+    "id": "add-item-to-cart-and-select-colour",
+    "description": "",
+    "name": "Add item to cart and select colour",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "add-item-to-cart-and-select-colour;add-item-to-cart-and-select-colour;;2",
+        "description": "",
+        "name": "Add item to cart and select colour",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "steps": [
+          {
+            "result": {
+              "duration": 3051245446,
+              "status": "passed"
+            },
+            "name": "I perform search of \"samsung galaxy s5\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "samsung galaxy s5",
+                  "offset": 21
+                }
+              ],
+              "location": "Test2.UserSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ]
+          },
+          {
+            "result": {
+              "duration": 250344875,
+              "status": "passed"
+            },
+            "name": "I open item with title \"Unlocked - Samsung Galaxy S5 SM-G900P - 16GB - Charcoal Black WHITE GOLD 4G\"",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unlocked - Samsung Galaxy S5 SM-G900P - 16GB - Charcoal Black WHITE GOLD 4G",
+                  "offset": 24
+                }
+              ],
+              "location": "Test2.openDetailsPage(String)"
+            },
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 16316099915,
+              "status": "passed"
+            },
+            "name": "I select \"black\"",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "black",
+                  "offset": 10
+                }
+              ],
+              "location": "Test2.userSelects(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          },
+          {
+            "result": {
+              "duration": 96453620,
+              "status": "passed"
+            },
+            "name": "I add item to cart",
+            "keyword": "And ",
+            "line": 8,
+            "match": {
+              "location": "Test2.userAddsItemToCart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2424590552,
+              "status": "passed"
+            },
+            "name": "Item \"Unlocked - Samsung Galaxy S5 SM-G900P - 16GB - Charcoal Black WHITE GOLD 4G\" is added to the cart",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Unlocked - Samsung Galaxy S5 SM-G900P - 16GB - Charcoal Black WHITE GOLD 4G",
+                  "offset": 6
+                }
+              ],
+              "location": "Test2.itemIsAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              1
+            ]
+          },
+          {
+            "result": {
+              "duration": 31496258,
+              "status": "passed"
+            },
+            "name": "Item color is \"black\"",
+            "keyword": "And ",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "val": "black",
+                  "offset": 15
+                }
+              ],
+              "location": "Test2.itemSColorIs(String)"
+            },
+            "matchedColumns": [
+              2
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "bdd/test2.feature"
+  },
+  {
+    "id": "add-different-items-to-cart",
+    "description": "",
+    "name": "Add different items to cart",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "add-different-items-to-cart;add-different-items-to-cart",
+        "description": "",
+        "name": "Add different items to cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 16315079003,
+              "status": "passed"
+            },
+            "name": "User adds \"Standard Fun 108 UNO Playing Cards Game For Travel Family Friends Instruction\" and \"Monopoly Finance Board Game Boys \u0026 Girls 2015 Min 2 players\" items to cart",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Standard Fun 108 UNO Playing Cards Game For Travel Family Friends Instruction",
+                  "offset": 11
+                },
+                {
+                  "val": "Monopoly Finance Board Game Boys \u0026 Girls 2015 Min 2 players",
+                  "offset": 95
+                }
+              ],
+              "location": "Test3.UserAddItemsToCart(String,String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4638292270,
+              "status": "passed"
+            },
+            "name": "User goes to home page",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "location": "Test3.goToHomePage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1965415025,
+              "status": "passed"
+            },
+            "name": "User opens the cart",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "location": "Test3.openCart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2050997836,
+              "status": "passed"
+            },
+            "name": "\"Standard Fun 108 UNO Playing Cards Game For Travel Family Friends Instruction\" and \"Monopoly Finance Board Game Boys \u0026 Girls 2015 Min 2 players\" items are in the cart",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Standard Fun 108 UNO Playing Cards Game For Travel Family Friends Instruction",
+                  "offset": 1
+                },
+                {
+                  "val": "Monopoly Finance Board Game Boys \u0026 Girls 2015 Min 2 players",
+                  "offset": 85
+                }
+              ],
+              "location": "Test3.itemsAddedToTheCart(String,String)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "bdd/test3.feature"
+  },
+  {
+    "id": "add-more-items-than-available-to-cart",
+    "description": "",
+    "name": "Add more items than available to cart",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "add-more-items-than-available-to-cart;add-more-items-than-available-to-cart",
+        "description": "",
+        "name": "Add more items than available to cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 4649283036,
+              "status": "passed"
+            },
+            "name": "I open the item with title \"Apple iPhone 6 Plus - 64GB - Space Grey (Unlocked) Smartphone - Boxed\"",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple iPhone 6 Plus - 64GB - Space Grey (Unlocked) Smartphone - Boxed",
+                  "offset": 28
+                }
+              ],
+              "location": "Test4.FindAndOpenItem(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1715861734,
+              "status": "passed"
+            },
+            "name": "I set amount more than available in stock",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "Test4.setExcedeedAmount()"
+            }
+          },
+          {
+            "result": {
+              "duration": 153522726,
+              "status": "passed"
+            },
+            "name": "Error message appears",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "Test4.verifyErrorMessage()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "bdd/test4.feature"
+  },
+  {
+    "id": "add-the-same-item-to-cart",
+    "description": "",
+    "name": "Add the same item to cart",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "add-the-same-item-to-cart;add-the-same-item-to-cart",
+        "description": "",
+        "name": "Add the same item to cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 3717967066,
+              "status": "passed"
+            },
+            "name": "User found an item \"Apple iPad mini 1st Generation Wi-Fi, 7.9in (16GB, 32GB, 64GB)\" with color and capacity attributes",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "Apple iPad mini 1st Generation Wi-Fi, 7.9in (16GB, 32GB, 64GB)",
+                  "offset": 20
+                }
+              ],
+              "location": "Test5.UserFindsItem(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 93311019,
+              "status": "passed"
+            },
+            "name": "User tries to add found item to cart",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "Test5.openCart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 191637434,
+              "status": "passed"
+            },
+            "name": "two error messages appear",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "Test5.itemsAddedToTheCart()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "bdd/test5.feature"
+  }
+]
